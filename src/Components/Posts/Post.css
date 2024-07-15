@@ -1,0 +1,90 @@
+.postParentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.moreView, .recommendations {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    background-color:rgb(255, 254, 254);
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 250px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.favourite {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+.favourite img {
+    width: 24px;
+    height: 24px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content {
+    margin-bottom: 16px;
+}
+
+.rate {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.kilometer {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.name {
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    color: #999;
+}
